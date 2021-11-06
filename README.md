@@ -18,7 +18,7 @@ This is the third homework assignment of CS 441.
 
 ## How to run the project
 
-* Clone the GIT repository by using git clone https://github.com/js-shashwath/CS-441-HW3.git
+* Clone the GIT repository by using git clone https://github.com/js-shashwath/CS441HW3.git
 * The scala version should be set in the Global Libraries under Project Structure in Files .
 * The SBT configuration should be added by using Edit Configurations and then simulations can be ran in the IDE .
 
