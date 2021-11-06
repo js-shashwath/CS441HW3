@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.logfile.proto;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (logRequest) returns (logReply) {}
+}
+
+// The request message containing the user's name.
+message logRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message logReply {
+  string message = 1;
+}
